@@ -1,0 +1,45 @@
+name: GitHub Invitation
+description: I want to join the awesome GitHub organisation
+title: "Invite me to the GitHub Community Organization"
+labels: [invite me to the organisation]
+assignees:
+  - Arindam200
+  - Swpn0neel
+  - samyabrata-maji
+  - priyankarpal
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Insert your name here
+      placeholder: Arindam Majumder
+    validations:
+      required: true
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord Username (if applicable)
+      description: Insert your Discord username here
+      placeholder: "Arindam_1729#3904"
+    validations:
+      required: false
+  - type: input
+    id: twittername
+    attributes:
+      label: Twiiter username (if applicable)
+      description: Insert your Twitter username here
+      placeholder: "Arindam_1729"
+    validations:
+      required: false
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Additional Context
+      description: Where did you learn about Collab Community? What do you like about this community/Why do you want to join?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Join our [Discord community](https://discord.gg/yH9Cjg3ddD)
